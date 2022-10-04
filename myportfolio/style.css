@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    font-family: sans-serif;
+}
+.carousel-inner{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgb(113, 103, 103, 0.5));
+}
+.cir{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-left: 10px;
+   
+}
+.come{
+    background-image: url('/map.jpg');
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.code{
+    color: black;
+}
+.sod{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url('/dop.jpg');
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bro{
+    display: grid;
+    align-content: space-between;
+}
+.bad{
+    display: flex;
+    padding: 10px;
+}.voob{
+    border-bottom: 2px solid black;
+    width: 20%;
+    margin: 0 auto;
+}
+@media (max-width:320px){
+  .bib h1{
+    width:100%;
+    font-size: 20px;
+  } 
+  .sabi{
+    display: flex;
+    width: 80%;
+  } 
+  .sabi h4{
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .sabi p{
+   font-size: 14px;
+    padding-top: 5px;
+  }
+} 
